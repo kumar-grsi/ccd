@@ -938,7 +938,7 @@
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
         OnSelect: |-
-            =Collect(NewCoffeeShop,{Name: })
+            =Collect(NewCoffeeShop,{Name: DataCardValue7, City: DataCardValue9})
         Size: =15
         Text: ="Save Ddata locally"
         Visible: =If(Connection.Connected, false, true)
