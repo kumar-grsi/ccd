@@ -75,7 +75,7 @@
         "Name": "Label3",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 54,
+        "PublishOrderIndex": 97,
         "Rules": [
           {
             "Category": "Data",
@@ -399,7 +399,7 @@
         "Name": "lbl_user",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 55,
+        "PublishOrderIndex": 98,
         "Rules": [
           {
             "Category": "Data",
@@ -706,7 +706,7 @@
         "Name": "Image3",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 56,
+        "PublishOrderIndex": 99,
         "Rules": [
           {
             "Category": "Data",
@@ -970,7 +970,7 @@
         "Name": "lbl_date",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 57,
+        "PublishOrderIndex": 100,
         "Rules": [
           {
             "Category": "Data",
@@ -1302,7 +1302,7 @@
         "Name": "Label4",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 58,
+        "PublishOrderIndex": 101,
         "Rules": [
           {
             "Category": "Data",
@@ -1640,7 +1640,7 @@
         "Name": "Label4_1",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 59,
+        "PublishOrderIndex": 102,
         "Rules": [
           {
             "Category": "Data",
@@ -1978,7 +1978,7 @@
         "Name": "Label4_2",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 60,
+        "PublishOrderIndex": 103,
         "Rules": [
           {
             "Category": "Data",
@@ -2316,7 +2316,7 @@
         "Name": "Label4_3",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 61,
+        "PublishOrderIndex": 104,
         "Rules": [
           {
             "Category": "Data",
@@ -2623,7 +2623,7 @@
         "Name": "Icon1",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 62,
+        "PublishOrderIndex": 105,
         "Rules": [
           {
             "Category": "Design",
@@ -2851,7 +2851,7 @@
         "Name": "lbl_cart_count",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 63,
+        "PublishOrderIndex": 106,
         "Rules": [
           {
             "Category": "Data",

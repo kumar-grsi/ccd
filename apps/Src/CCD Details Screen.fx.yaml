@@ -4,7 +4,7 @@
 
     frm_CCDDetails As form:
         BorderColor: =RGBA(197, 203, 207, 1)
-        DataSource: ='Coffee Shops'
+        DataSource: ='Coffee Shops_1'
         DefaultMode: =FormMode.New
         Height: =597
         Item: =varCurrentCoffeeShopRecord
