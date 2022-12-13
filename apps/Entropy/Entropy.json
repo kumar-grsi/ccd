@@ -122,11 +122,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/13/2022 22:20:00",
+  "HeaderLastSavedDateTimeUTC": "12/13/2022 22:27:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "14fa8656-a78e-485c-b5ad-232c67de29e2": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/8a73c173fab94acd8faed02ec2bf875b\"",
-    "5d7eab3a-03c0-4364-a58a-f01daef23b9e": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/1AF0CDA44185808FF2A81936CD07FDC0-86468A83B2747844\"",
+    "5d7eab3a-03c0-4364-a58a-f01daef23b9e": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/1af0cda44185808ff2a81936cd07fdc0-86468a83b2747844\"",
     "aea791a6-70ab-4ca9-8a89-621989cccdba": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-e79c5078-1950-4f7c-887e-fc4d919aae41\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -347,7 +347,7 @@
       "galleryTemplate": 2,
       "icon": 2,
       "image": 5,
-      "label": 57,
+      "label": 59,
       "rectangle": 1,
       "screen": 4,
       "text": 8,
