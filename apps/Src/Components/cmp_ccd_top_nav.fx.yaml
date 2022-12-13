@@ -57,7 +57,7 @@ cmp_ccd_top_nav As CanvasComponent:
         Height: =37
         OnSelect: =
         Size: =16
-        Text: ="About us"
+        Text: ="About"
         X: =502
         Y: =47
         ZIndex: =5
@@ -69,7 +69,7 @@ cmp_ccd_top_nav As CanvasComponent:
         Height: =37
         OnSelect: =
         Size: =16
-        Text: ="Contact Us"
+        Text: ="Contact"
         X: =638
         Y: =47
         ZIndex: =6

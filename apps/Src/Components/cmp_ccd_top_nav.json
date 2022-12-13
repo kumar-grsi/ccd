@@ -1908,7 +1908,7 @@
           {
             "AFDDataSourceName": "",
             "AutoRuleBindingEnabled": false,
-            "AutoRuleBindingString": "\"Text\"",
+            "AutoRuleBindingString": "",
             "InvariantPropertyName": "Text",
             "IsLockable": false,
             "NameMapSourceSchema": "?"
@@ -1988,7 +1988,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "\"About us\"",
+            "InvariantScript": "\"About\"",
             "Property": "Text",
             "RuleProviderType": "Unknown"
           },
@@ -2246,7 +2246,7 @@
           {
             "AFDDataSourceName": "",
             "AutoRuleBindingEnabled": false,
-            "AutoRuleBindingString": "\"Text\"",
+            "AutoRuleBindingString": "",
             "InvariantPropertyName": "Text",
             "IsLockable": false,
             "NameMapSourceSchema": "?"
@@ -2326,7 +2326,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "\"Contact Us\"",
+            "InvariantScript": "\"Contact\"",
             "Property": "Text",
             "RuleProviderType": "Unknown"
           },
@@ -3120,7 +3120,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638065619096136658",
+    "LastModifiedTimestamp": "638065622840290355",
     "Name": "cmp_ccd_top_nav",
     "Rules": [
       {
@@ -3179,7 +3179,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638065619096136658",
+  "LastModifiedTimestamp": "638065622840290355",
   "Name": "992b6cbbbecb4bf58dcfc63756580d64",
   "OverridableProperties": {},
   "Version": "638065529959998855"
