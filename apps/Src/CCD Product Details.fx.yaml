@@ -7,6 +7,7 @@
         DataSource: =Products
         DefaultMode: =FormMode.New
         Height: =597
+        Item: =varCurrentProductRecord
         NumberOfColumns: =1
         SnapToColumns: =false
         Width: =1282
