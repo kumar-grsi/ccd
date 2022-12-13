@@ -74,7 +74,8 @@
             Height: =42
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-            OnSelect: =Select(Parent)
+            OnSelect: |-
+                =Collect(ShoppingCart,{Name: ThisItem.Name, Price: ThisItem.Price})
             Size: =15
             Text: ="Add To Cart"
             X: =162
@@ -92,4 +93,24 @@
         X: =60
         Y: =60
         ZIndex: =2
+
+    Icon1 As icon.ShoppingCart:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =White
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.ShoppingCart
+        X: =1149
+        Y: =18
+        ZIndex: =3
+
+    lbl_cart_count As label:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Text"
+        X: =1216
+        Y: =30
+        ZIndex: =4
 
