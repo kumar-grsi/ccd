@@ -58,7 +58,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =18
-            Text: ="$" & Text(ThisItem.'Price',"0.00")
+            Text: ="$" & Text(ThisItem.Price,"0.00")
             VerticalAlign: =VerticalAlign.Top
             Width: =Title2.Width
             X: =Title2.X

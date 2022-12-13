@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "ccd_coffeeshop",
+    "MaxGetRowsCount": 500,
     "Name": "Coffee Shops_1",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
