@@ -27,6 +27,13 @@
     },
     {
       "Kind": "default.cds_ccd_coffeeshop_forms",
+      "Namespace": "Coffee Shops (Forms)",
+      "Values": {
+        "Information": "e7d6ffc9-8ebd-4116-bb37-e2cd74a89123"
+      }
+    },
+    {
+      "Kind": "default.cds_ccd_coffeeshop_forms",
       "Namespace": "Coffee Shops_1 (Forms)",
       "Values": {
         "Information": "e7d6ffc9-8ebd-4116-bb37-e2cd74a89123"
@@ -34,14 +41,14 @@
     },
     {
       "Kind": "default.cds_grsics_coffeeshop_forms",
-      "Namespace": "Coffee Shops (Forms)",
+      "Namespace": "Coffee Shops (Forms)1",
       "Values": {
         "Information": "b33a5ebd-09e3-494d-943c-1dc9340bfe73"
       }
     },
     {
       "Kind": "default.cds_ccd_coffeeshop_forms",
-      "Namespace": "Coffee Shops (Forms)1",
+      "Namespace": "Coffee Shops (Forms)11",
       "Values": {
         "Information": "e7d6ffc9-8ebd-4116-bb37-e2cd74a89123"
       }
