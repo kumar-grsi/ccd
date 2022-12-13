@@ -3,4 +3,5 @@ App As appinfo:
     OnStart: |-
         =Clear(ShoppingCart);
         Set(varCurrentUser, User());
+        Clear(NewCoffeeShop);
 
