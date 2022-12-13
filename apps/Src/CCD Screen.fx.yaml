@@ -193,3 +193,13 @@
         Y: =45
         ZIndex: =3
 
+    lbl_user As label:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: =User().FullName
+        X: =1082
+        Y: =84
+        ZIndex: =4
+
