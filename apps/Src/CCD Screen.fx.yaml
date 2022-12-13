@@ -157,3 +157,16 @@
             Y: =120
             ZIndex: =9
 
+    Label1 As label:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =67
+        Size: =25
+        Text: ="CAFE COFFEE DAY"
+        Width: =334
+        X: =30
+        Y: =104
+        ZIndex: =2
+
