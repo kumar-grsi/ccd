@@ -197,9 +197,11 @@
         BorderColor: =RGBA(197, 203, 207, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =36
         Size: =13
-        Text: =User().FullName
-        X: =1082
+        Text: =Concatenate("Welcome, ",varCurrentUser.FullName)
+        Width: =262
+        X: =1071
         Y: =84
         ZIndex: =4
 
