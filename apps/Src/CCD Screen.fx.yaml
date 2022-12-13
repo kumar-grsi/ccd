@@ -168,6 +168,21 @@
             Y: =120
             ZIndex: =9
 
+        Button2 As button:
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(100, 118, 132, 1)
+            FontWeight: =FontWeight.Semibold
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+            OnSelect: ='PowerApp->Sendanemail(V2)'.Run(ThisItem.Landlord.Email, ThisItem.Name)
+            Size: =15
+            Text: ="Email"
+            X: =1022
+            Y: =60
+            ZIndex: =10
+
     Label1 As label:
         BorderColor: =RGBA(197, 203, 207, 1)
         Color: =RGBA(255, 255, 255, 1)

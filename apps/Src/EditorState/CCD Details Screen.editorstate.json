@@ -614,7 +614,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cmp_ccd_top_nav_4",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -625,12 +625,12 @@
         {
           "Category": "Design",
           "PropertyName": "Y",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
           "PropertyName": "X",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -9421,7 +9421,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "frm_CCDDetails",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
