@@ -200,3 +200,22 @@
         Height: =132
         ZIndex: =3
 
+    Button3 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =34
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: |-
+            =NewForm(frm_CCDDetails);
+            Navigate('CCD Details Screen');
+        Size: =15
+        Text: ="New Coffee Shop"
+        Width: =214
+        X: =1083
+        Y: =142
+        ZIndex: =4
+

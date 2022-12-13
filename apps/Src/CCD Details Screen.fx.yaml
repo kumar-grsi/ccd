@@ -515,6 +515,9 @@
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(62, 74, 83, 1)
                 MaxLength: =Parent.MaxLength
+                OnSelect: |-
+                    =Collect(NewCoffeeShop, {Name: DataCardValue7, City: DataCardValue9});
+                    SaveData(NewCoffeeShop, "LocalSavedCoffeeShop");
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -925,4 +928,22 @@
     cmp_ccd_top_nav_4 As cmp_ccd_top_nav:
         Height: =130
         ZIndex: =3
+
+    btn_save_locally As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(100, 118, 132, 1)
+        FontWeight: =FontWeight.Semibold
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: |-
+            =Collect(NewCoffeeShop,{Name: })
+        Size: =15
+        Text: ="Save Ddata locally"
+        Visible: =If(Connection.Connected, false, true)
+        Width: =286
+        X: =752
+        Y: =656
+        ZIndex: =4
 
