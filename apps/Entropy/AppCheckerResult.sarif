@@ -374,6 +374,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'CCD Product Details'.frm_CCDProdDetails.Name_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],

@@ -198,21 +198,6 @@
                 Y: =DataCardKey11.Y
                 ZIndex: =4
 
-        Owner_DataCard1 As typedDataCard.blankPolymorphicEditCard:
-            BorderColor: =RGBA(197, 203, 207, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="_ownerid_value"
-            Default: =ThisItem.Owner
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"_ownerid_value")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =76
-            Required: =true
-            Width: =282
-            X: =2
-            Y: =0
-            ZIndex: =1
-
         "'Street Address_DataCard1' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
@@ -650,6 +635,98 @@
                 Y: =DataCardKey13.Y
                 ZIndex: =4
 
+        Landlord_DataCard1 As typedDataCard.comboBoxEditCard:
+            BorderColor: =RGBA(197, 203, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ccd_Landlord"
+            Default: =ThisItem.Landlord
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_Landlord")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =98
+            Required: =false
+            Update: =DataCardValue13.Selected
+            Width: =318
+            X: =2
+            Y: =2
+            ZIndex: =1
+
+            DataCardKey15 As label:
+                AutoHeight: =true
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue13 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(100, 118, 132, 1)
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+                ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                DefaultSelectedItems: =Parent.Default
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["fullname"]
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(62, 74, 83, 1)
+                Items: =Choices([@'Coffee Shops'].ccd_Landlord)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(197, 203, 207, 1)
+                SearchFields: =["fullname"]
+                SearchItems: =Search(Choices([@'Coffee Shops'].ccd_Landlord),DataCardValue13.SearchText,"fullname")
+                SelectionFill: =RGBA(100, 118, 132, 1)
+                SelectMultiple: =false
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
+                ZIndex: =2
+
+            ErrorMessage13 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue13.Y + DataCardValue13.Height
+                ZIndex: =3
+
+            StarVisible13 As label:
+                Align: =Align.Center
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey15.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey15.Y
+                ZIndex: =4
+
         Name_DataCard3 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
@@ -767,7 +844,7 @@
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
         OnSelect: |-
-            =Collect(NewCoffeeShop,{Name: DataCardValue7, City: DataCardValue9})
+            =Collect(NewCoffeeShop,{Name: DataCardValue5, City: DataCardValue8})
         Size: =15
         Text: ="Save Ddata locally"
         Visible: =If(Connection.Connected, false, true)
