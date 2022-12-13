@@ -94,23 +94,3 @@
         Y: =60
         ZIndex: =2
 
-    Icon1 As icon.ShoppingCart:
-        BorderColor: =RGBA(197, 203, 207, 1)
-        Color: =White
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Icon: =Icon.ShoppingCart
-        X: =1149
-        Y: =18
-        ZIndex: =3
-
-    lbl_cart_count As label:
-        BorderColor: =RGBA(197, 203, 207, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Size: =15
-        Text: =CountRows(ShoppingCart)
-        X: =1216
-        Y: =30
-        ZIndex: =4
-
