@@ -4,303 +4,34 @@
 
     frm_CCDDetails As form:
         BorderColor: =RGBA(197, 203, 207, 1)
-        DataSource: ='Coffee Shops_1'
+        DataSource: ='Coffee Shops'
         DefaultMode: =FormMode.New
         Height: =597
         Item: =varCurrentCoffeeShopRecord
+        NumberOfColumns: =2
         SnapToColumns: =false
         Width: =1282
         X: =40
         Y: =156
         ZIndex: =1
 
-        "'Seating Capacity_DataCard2' As typedDataCard.numberEditCard":
-            BorderColor: =RGBA(197, 203, 207, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_seatingcapacity"
-            Default: =ThisItem.'Seating Capacity'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_seatingcapacity")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =Value(DataCardValue13.Text)
-            Width: =213
-            X: =1
-            Y: =0
-            ZIndex: =1
-
-            DataCardKey14 As label:
-                AutoHeight: =true
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue13 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(255, 255, 255, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(0, 0, 0, 1)
-                FocusedBorderThickness: =4
-                Format: =TextFormat.Number
-                HoverBorderColor: =RGBA(197, 203, 207, 1)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(62, 74, 83, 1)
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
-                ZIndex: =2
-
-            ErrorMessage12 As label:
-                AutoHeight: =true
-                Color: =RGBA(255, 51, 51, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue13.Y + DataCardValue13.Height
-                ZIndex: =3
-
-            StarVisible12 As label:
-                Align: =Align.Center
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey14.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey14.Y
-                ZIndex: =4
-
-        Landlord_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderColor: =RGBA(197, 203, 207, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_Landlord"
-            Default: =ThisItem.Landlord
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_Landlord")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =103
-            Required: =false
-            Update: =DataCardValue16.Selected
-            Width: =424
-            X: =2
-            Y: =0
-            ZIndex: =1
-
-            DataCardKey17 As label:
-                AutoHeight: =true
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue16 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(100, 118, 132, 1)
-                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-                ChevronHoverFill: =RGBA(255, 255, 255, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DefaultSelectedItems: =Parent.Default
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["fullname"]
-                DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(0, 0, 0, 1)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(62, 74, 83, 1)
-                IsSearchable: =false
-                Items: =Choices([@'Coffee Shops_1'].ccd_Landlord)
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(197, 203, 207, 1)
-                SearchFields: =["fullname"]
-                SearchItems: =[]
-                SelectionFill: =RGBA(100, 118, 132, 1)
-                SelectMultiple: =false
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey17.Y + DataCardKey17.Height + 5
-                ZIndex: =2
-
-            ErrorMessage15 As label:
-                AutoHeight: =true
-                Color: =RGBA(255, 51, 51, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue16.Y + DataCardValue16.Height
-                ZIndex: =3
-
-            StarVisible15 As label:
-                Align: =Align.Center
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey17.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey17.Y
-                ZIndex: =4
-
-        "'Street Address_DataCard2' As typedDataCard.textualEditCard":
-            BorderColor: =RGBA(197, 203, 207, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_streetaddress"
-            Default: =ThisItem.'Street Address'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_streetaddress")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, "ccd_streetaddress")
-            Required: =false
-            Update: =DataCardValue15.Text
-            Width: =424
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey16 As label:
-                AutoHeight: =true
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue15 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(255, 255, 255, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(0, 0, 0, 1)
-                FocusedBorderThickness: =4
-                HoverBorderColor: =RGBA(197, 203, 207, 1)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(62, 74, 83, 1)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
-                ZIndex: =2
-
-            ErrorMessage14 As label:
-                AutoHeight: =true
-                Color: =RGBA(255, 51, 51, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =60
-                Y: =DataCardValue15.Y + DataCardValue15.Height
-                ZIndex: =3
-
-            StarVisible14 As label:
-                Align: =Align.Center
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey16.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey16.Y
-                ZIndex: =4
-
-        "'Allows Pets_DataCard2' As typedDataCard.comboBoxOptionSetSingleEditCard":
+        "'Allows Pets_DataCard1' As typedDataCard.comboBoxOptionSetSingleEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="ccd_allowspets"
             Default: =ThisItem.'Allows Pets'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_allowspets")
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_allowspets")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue10.Selected.Value
-            Width: =212
+            Update: =DataCardValue7.Selected.Value
+            Width: =285
             X: =1
-            Y: =1
+            Y: =0
             ZIndex: =1
 
-            DataCardKey10 As label:
+            DataCardKey8 As label:
                 AutoHeight: =true
                 Color: =RGBA(197, 203, 207, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -313,7 +44,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue10 As combobox:
+            DataCardValue7 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 ChevronBackground: =RGBA(100, 118, 132, 1)
                 ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
@@ -331,7 +62,7 @@
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(62, 74, 83, 1)
                 IsSearchable: =false
-                Items: =Choices('Allows Pets (Coffee Shops_1)')
+                Items: =Choices('Allows Pets (Coffee Shops)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(197, 203, 207, 1)
@@ -343,10 +74,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
                 ZIndex: =2
 
-            ErrorMessage8 As label:
+            ErrorMessage6 As label:
                 AutoHeight: =true
                 Color: =RGBA(255, 51, 51, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -361,133 +92,41 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue10.Y + DataCardValue10.Height
+                Y: =DataCardValue7.Y + DataCardValue7.Height
                 ZIndex: =3
 
-            StarVisible8 As label:
+            StarVisible6 As label:
                 Align: =Align.Center
                 Color: =RGBA(197, 203, 207, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey10.Height
+                Height: =DataCardKey8.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey10.Y
+                Y: =DataCardKey8.Y
                 ZIndex: =4
 
-        "'Outdoor Seating_DataCard1' As typedDataCard.comboBoxOptionSetSingleEditCard":
+        "'Phone Number_DataCard1' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_outdoorseating"
-            Default: =ThisItem.'Outdoor Seating'
+            DataField: ="ccd_phonenumber"
+            Default: =ThisItem.'Phone Number'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_outdoorseating")
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_phonenumber")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue11.Selected.Value
-            Width: =284
-            X: =2
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey12 As label:
-                AutoHeight: =true
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue11 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                ChevronBackground: =RGBA(100, 118, 132, 1)
-                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-                ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-                ChevronHoverFill: =RGBA(255, 255, 255, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                DefaultSelectedItems: =[Parent.Default]
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["Value"]
-                DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(0, 0, 0, 1)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(62, 74, 83, 1)
-                IsSearchable: =false
-                Items: =Choices('Outdoor Seating (Coffee Shops_1)')
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedColor: =RGBA(255, 255, 255, 1)
-                PressedFill: =RGBA(197, 203, 207, 1)
-                SearchFields: =["Value"]
-                SearchItems: =[]
-                SelectionFill: =RGBA(100, 118, 132, 1)
-                SelectMultiple: =false
-                Size: =13
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
-                ZIndex: =2
-
-            ErrorMessage10 As label:
-                AutoHeight: =true
-                Color: =RGBA(255, 51, 51, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue11.Y + DataCardValue11.Height
-                ZIndex: =3
-
-            StarVisible10 As label:
-                Align: =Align.Center
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey12.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey12.Y
-                ZIndex: =4
-
-        City_DataCard1 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(197, 203, 207, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_city"
-            Default: =ThisItem.City
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_city")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =113
-            MaxLength: =DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, "ccd_city")
+            Height: =110
+            MaxLength: =DataSourceInfo([@'Coffee Shops'], DataSourceInfo.MaxLength, "ccd_phonenumber")
             Required: =false
             Update: =DataCardValue9.Text
-            Width: =212
-            X: =0
-            Y: =2
+            Visible: =true
+            Width: =285
+            X: =3
+            Y: =0
             ZIndex: =1
 
-            DataCardKey9 As label:
+            DataCardKey11 As label:
                 AutoHeight: =true
                 Color: =RGBA(197, 203, 207, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -516,9 +155,199 @@
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(62, 74, 83, 1)
                 MaxLength: =Parent.MaxLength
-                OnSelect: |-
-                    =Collect(NewCoffeeShop, {Name: DataCardValue7, City: DataCardValue9});
-                    SaveData(NewCoffeeShop, "LocalSavedCoffeeShop");
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                ZIndex: =2
+
+            ErrorMessage9 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue9.Y + DataCardValue9.Height
+                ZIndex: =3
+
+            StarVisible9 As label:
+                Align: =Align.Center
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey11.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey11.Y
+                ZIndex: =4
+
+        Owner_DataCard1 As typedDataCard.blankPolymorphicEditCard:
+            BorderColor: =RGBA(197, 203, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="_ownerid_value"
+            Default: =ThisItem.Owner
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"_ownerid_value")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =76
+            Required: =true
+            Width: =282
+            X: =2
+            Y: =0
+            ZIndex: =1
+
+        "'Street Address_DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(197, 203, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ccd_streetaddress"
+            Default: =ThisItem.'Street Address'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_streetaddress")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =101
+            MaxLength: =DataSourceInfo([@'Coffee Shops'], DataSourceInfo.MaxLength, "ccd_streetaddress")
+            Required: =false
+            Update: =DataCardValue12.Text
+            Width: =427
+            X: =1
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey14 As label:
+                AutoHeight: =true
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue12 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(197, 203, 207, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(62, 74, 83, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                ZIndex: =2
+
+            ErrorMessage12 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue12.Y + DataCardValue12.Height
+                ZIndex: =3
+
+            StarVisible12 As label:
+                Align: =Align.Center
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey14.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey14.Y
+                ZIndex: =4
+
+        City_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(197, 203, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ccd_city"
+            Default: =ThisItem.City
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_city")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =118
+            MaxLength: =DataSourceInfo([@'Coffee Shops'], DataSourceInfo.MaxLength, "ccd_city")
+            Required: =false
+            Update: =DataCardValue8.Text
+            Width: =427
+            X: =2
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey9 As label:
+                AutoHeight: =true
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue8 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(197, 203, 207, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(62, 74, 83, 1)
+                MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -546,7 +375,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue9.Y + DataCardValue9.Height
+                Y: =DataCardValue8.Y + DataCardValue8.Height
                 ZIndex: =3
 
             StarVisible7 As label:
@@ -562,24 +391,23 @@
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-        State_DataCard2 As typedDataCard.textualEditCard:
+        "'Coffee Shop Image_DataCard1' As typedDataCard.addLargePictureCard":
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_state"
-            Default: =ThisItem.State
+            DataField: ="ccd_coffeeshopimage"
+            Default: =ThisItem.'Coffee Shop Image'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_state")
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_coffeeshopimage")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
-            MaxLength: =DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, "ccd_state")
+            Height: =50
             Required: =false
-            Update: =DataCardValue14.Text
-            Width: =212
-            X: =2
+            Update: =Image1.Image
+            Width: =213
+            X: =-1
             Y: =2
             ZIndex: =1
 
-            DataCardKey15 As label:
+            DataCardKey10 As label:
                 AutoHeight: =true
                 Color: =RGBA(197, 203, 207, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -589,38 +417,32 @@
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =15
                 ZIndex: =1
 
-            DataCardValue14 As text:
+            Image1 As image:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(255, 255, 255, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(0, 0, 0, 1)
-                FocusedBorderThickness: =4
-                HoverBorderColor: =RGBA(197, 203, 207, 1)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(62, 74, 83, 1)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =13
+                Height: =AddPicture1.Height
+                Image: =If(IsBlank(AddPicture1.Media), Parent.Default, AddPicture1.Media)
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
+                Width: =AddPicture1.Width
+                X: =AddPicture1.X
+                Y: =AddPicture1.Y
                 ZIndex: =2
 
-            ErrorMessage13 As label:
+            AddPicture1 As addMedia:
+                BorderColor: =RGBA(197, 203, 207, 1)
+                Fill: =RGBA(0, 0, 0, 1)
+                Height: =200
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                ZIndex: =3
+
+            ErrorMessage8 As label:
                 AutoHeight: =true
                 Color: =RGBA(255, 51, 51, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -635,37 +457,125 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue14.Y + DataCardValue14.Height
-                ZIndex: =3
+                Y: =Image1.Y + Image1.Height
+                ZIndex: =4
 
-            StarVisible13 As label:
+            StarVisible8 As label:
                 Align: =Align.Center
                 Color: =RGBA(197, 203, 207, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey15.Height
+                Height: =DataCardKey10.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey15.Y
-                ZIndex: =4
+                Y: =DataCardKey10.Y
+                ZIndex: =5
 
-        "'Phone Number_DataCard1' As typedDataCard.textualEditCard":
+        "'Seating Capacity_DataCard1' As typedDataCard.numberEditCard":
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_phonenumber"
-            Default: =ThisItem.'Phone Number'
+            DataField: ="ccd_seatingcapacity"
+            Default: =ThisItem.'Seating Capacity'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_phonenumber")
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_seatingcapacity")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =123
-            MaxLength: =DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, "ccd_phonenumber")
+            Height: =113
             Required: =false
-            Update: =DataCardValue12.Text
-            Width: =318
+            Update: =Value(DataCardValue10.Text)
+            Width: =213
             X: =0
-            Y: =336
+            Y: =2
+            ZIndex: =1
+
+            DataCardKey12 As label:
+                AutoHeight: =true
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue10 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
+                Format: =TextFormat.Number
+                HoverBorderColor: =RGBA(197, 203, 207, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(62, 74, 83, 1)
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                ZIndex: =2
+
+            ErrorMessage10 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue10.Y + DataCardValue10.Height
+                ZIndex: =3
+
+            StarVisible10 As label:
+                Align: =Align.Center
+                Color: =RGBA(197, 203, 207, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey12.Height
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey12.Y
+                ZIndex: =4
+
+        State_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(197, 203, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ccd_state"
+            Default: =ThisItem.State
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_state")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =95
+            MaxLength: =DataSourceInfo([@'Coffee Shops'], DataSourceInfo.MaxLength, "ccd_state")
+            Required: =false
+            Update: =DataCardValue11.Text
+            Width: =427
+            X: =1
+            Y: =2
             ZIndex: =1
 
             DataCardKey13 As label:
@@ -681,7 +591,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue12 As text:
+            DataCardValue11 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(255, 255, 255, 1)
@@ -724,7 +634,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue12.Y + DataCardValue12.Height
+                Y: =DataCardValue11.Y + DataCardValue11.Height
                 ZIndex: =3
 
             StarVisible11 As label:
@@ -740,106 +650,24 @@
                 Y: =DataCardKey13.Y
                 ZIndex: =4
 
-        "'Coffee Shop Image_DataCard1' As typedDataCard.addLargePictureCard":
-            BorderColor: =RGBA(197, 203, 207, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="ccd_coffeeshopimage"
-            Default: =ThisItem.'Coffee Shop Image'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_coffeeshopimage")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =258
-            Required: =false
-            Update: =Image1.Image
-            Width: =424
-            X: =0
-            Y: =337
-            ZIndex: =1
-
-            DataCardKey11 As label:
-                AutoHeight: =true
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =34
-                Size: =13
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            Image1 As image:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                Height: =AddPicture1.Height
-                Image: =If(IsBlank(AddPicture1.Media), Parent.Default, AddPicture1.Media)
-                Tooltip: =Parent.DisplayName
-                Width: =AddPicture1.Width
-                X: =AddPicture1.X
-                Y: =AddPicture1.Y
-                ZIndex: =2
-
-            AddPicture1 As addMedia:
-                BorderColor: =RGBA(197, 203, 207, 1)
-                Fill: =RGBA(0, 0, 0, 1)
-                Height: =200
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
-                ZIndex: =3
-
-            ErrorMessage9 As label:
-                AutoHeight: =true
-                Color: =RGBA(255, 51, 51, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =Image1.Y + Image1.Height
-                ZIndex: =4
-
-            StarVisible9 As label:
-                Align: =Align.Center
-                Color: =RGBA(197, 203, 207, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey11.Height
-                Size: =13
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey11.Y
-                ZIndex: =5
-
-        Name_DataCard2 As typedDataCard.textualEditCard:
+        Name_DataCard3 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(197, 203, 207, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="ccd_name"
             Default: =ThisItem.Name
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,"ccd_name")
+            DisplayName: =DataSourceInfo([@'Coffee Shops'],DataSourceInfo.DisplayName,"ccd_name")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, "ccd_name")
+            MaxLength: =DataSourceInfo([@'Coffee Shops'], DataSourceInfo.MaxLength, "ccd_name")
             Required: =true
-            Update: =DataCardValue7.Text
+            Update: =DataCardValue5.Text
             Width: =427
             X: =0
             Y: =0
             ZIndex: =2
 
-            DataCardKey7 As label:
+            DataCardKey6 As label:
                 AutoHeight: =true
                 Color: =RGBA(197, 203, 207, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -852,7 +680,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7 As text:
+            DataCardValue5 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(255, 255, 255, 1)
@@ -877,10 +705,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
                 ZIndex: =2
 
-            ErrorMessage6 As label:
+            ErrorMessage5 As label:
                 AutoHeight: =true
                 Color: =RGBA(255, 51, 51, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -895,20 +723,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue7.Y + DataCardValue7.Height
+                Y: =DataCardValue5.Y + DataCardValue5.Height
                 ZIndex: =3
 
-            StarVisible6 As label:
+            StarVisible5 As label:
                 Align: =Align.Center
                 Color: =RGBA(197, 203, 207, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey7.Height
+                Height: =DataCardKey6.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey7.Y
+                Y: =DataCardKey6.Y
                 ZIndex: =4
 
     Submit As button:
