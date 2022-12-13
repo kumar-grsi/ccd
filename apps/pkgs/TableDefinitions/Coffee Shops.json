@@ -1,6 +1,6 @@
 {
   "DatasetName": "default.cds",
-  "EntityName": "Coffee Shops_1",
+  "EntityName": "Coffee Shops",
   "InstanceUrl": "https://orga4c7c4f6.crm.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "ccd_coffeeshops",

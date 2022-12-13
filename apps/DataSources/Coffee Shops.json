@@ -6,8 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "ccd_coffeeshop",
-    "MaxGetRowsCount": 500,
-    "Name": "Coffee Shops_1",
+    "Name": "Coffee Shops",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "ccd_allowspets": "Allows Pets",
@@ -47,13 +46,13 @@
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number"
     },
-    "PreferredName": "Coffee Shops_1",
+    "PreferredName": "Coffee Shops",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "Coffee Shops_1 (Views)",
+    "DisplayName": "Coffee Shops (Views)",
     "Name": "_ccd_coffeeshop_views",
-    "RelatedEntityName": "Coffee Shops_1",
+    "RelatedEntityName": "Coffee Shops",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
@@ -65,7 +64,7 @@
     }
   },
   {
-    "DisplayName": "Allows Pets (Coffee Shops_1)",
+    "DisplayName": "Allows Pets (Coffee Shops)",
     "Name": "ccd_coffeeshop_ccd_allowspets",
     "OptionSetInfoNameMapping": {
       "0": "No",
@@ -76,16 +75,16 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "ccd_allowspets",
-        "OptionSetReferenceEntityName": "Coffee Shops_1"
+        "OptionSetReferenceEntityName": "Coffee Shops"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "ccd_allowspets",
-    "RelatedEntityName": "Coffee Shops_1",
+    "RelatedEntityName": "Coffee Shops",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Outdoor Seating (Coffee Shops_1)",
+    "DisplayName": "Outdoor Seating (Coffee Shops)",
     "Name": "ccd_coffeeshop_ccd_outdoorseating",
     "OptionSetInfoNameMapping": {
       "0": "No",
@@ -96,16 +95,16 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "ccd_outdoorseating",
-        "OptionSetReferenceEntityName": "Coffee Shops_1"
+        "OptionSetReferenceEntityName": "Coffee Shops"
       }
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "ccd_outdoorseating",
-    "RelatedEntityName": "Coffee Shops_1",
+    "RelatedEntityName": "Coffee Shops",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status (Coffee Shops_1)",
+    "DisplayName": "Status (Coffee Shops)",
     "Name": "ccd_coffeeshop_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -116,16 +115,16 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Coffee Shops_1"
+        "OptionSetReferenceEntityName": "Coffee Shops"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Coffee Shops_1",
+    "RelatedEntityName": "Coffee Shops",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Coffee Shops_1)",
+    "DisplayName": "Status Reason (Coffee Shops)",
     "Name": "ccd_coffeeshop_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
@@ -136,12 +135,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Coffee Shops_1"
+        "OptionSetReferenceEntityName": "Coffee Shops"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Coffee Shops_1",
+    "RelatedEntityName": "Coffee Shops",
     "Type": "OptionSetInfo"
   }
 ]

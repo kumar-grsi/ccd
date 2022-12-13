@@ -14,6 +14,1563 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 73,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, \"ccd_name\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 73,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_name\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Name_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Seating Capacity_DataCard2'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Seating Capacity_DataCard2'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Seating Capacity_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Seating Capacity_DataCard2'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Seating Capacity_DataCard2'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 84,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_seatingcapacity\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Seating Capacity_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 77,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_Landlord\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 10,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 27,
+                  "snippet": {
+                    "text": ".ccd_Landlord"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 41,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Choices([@'Coffee Shops_1'].ccd_Landlord)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.Landlord_DataCard1.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Choices"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 82,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, \"ccd_streetaddress\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 82,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_streetaddress\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Street Address_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 79,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_allowspets\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Value"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DataCardValue10.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DataCardValue10.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 30,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "'Allows Pets (Coffee Shops_1)'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Allows Pets (Coffee Shops_1)"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DataCardValue10.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DataCardValue10.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 39,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Choices('Allows Pets (Coffee Shops_1)')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Allows Pets_DataCard2'.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Choices"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 83,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_outdoorseating\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.Update"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.Update",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Update",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Value"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DataCardValue11.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DataCardValue11.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 34,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": "'Outdoor Seating (Coffee Shops_1)'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Outdoor Seating (Coffee Shops_1)"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DataCardValue11.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DataCardValue11.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 43,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Choices('Outdoor Seating (Coffee Shops_1)')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Outdoor Seating_DataCard1'.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Choices"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 73,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, \"ccd_city\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 73,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_city\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.City_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 74,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, \"ccd_state\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 74,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_state\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.State_DataCard2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 80,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'], DataSourceInfo.MaxLength, \"ccd_phonenumber\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 80,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_phonenumber\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Phone Number_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Coffee Shop Image_DataCard1'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Coffee Shop Image_DataCard1'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "'Coffee Shops_1'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Coffee Shop Image_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Coffee Shops_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Coffee Shop Image_DataCard1'.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'CCD Details Screen'.frm_CCDDetails.'Coffee Shop Image_DataCard1'.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 84,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@'Coffee Shops_1'],DataSourceInfo.DisplayName,\"ccd_coffeeshopimage\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "CCD Details Screen",
+                "type": "'CCD Details Screen'.frm_CCDDetails.'Coffee Shop Image_DataCard1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "cmp_ccd_top_nav.Label4.FocusedBorderThickness"
                 }
               ],
@@ -37,7 +1594,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -67,7 +1624,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -97,7 +1654,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -127,7 +1684,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -157,7 +1714,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -187,7 +1744,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -217,7 +1774,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -247,7 +1804,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -277,7 +1834,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -307,7 +1864,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -337,7 +1894,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -367,7 +1924,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -397,7 +1954,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -427,7 +1984,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -457,7 +2014,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -487,7 +2044,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -517,7 +2074,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -547,7 +2104,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -577,7 +2134,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -607,7 +2164,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -637,7 +2194,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -645,6 +2202,37 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-FocusBorderShouldBeVisible",
               "messageStrings": {

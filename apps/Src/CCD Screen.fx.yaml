@@ -5,7 +5,7 @@
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(197, 203, 207, 1)
         Height: =543
-        Items: ='Coffee Shops_1'
+        Items: ='Coffee Shops'
         Layout: =Layout.Vertical
         OnSelect: |-
             =

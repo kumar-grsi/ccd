@@ -4,7 +4,7 @@
 
     frm_CCDDetails As form:
         BorderColor: =RGBA(197, 203, 207, 1)
-        DataSource: ='Coffee Shops_1'
+        DataSource: ='Coffee Shops'
         DefaultMode: =FormMode.New
         Height: =597
         Item: =varCurrentCoffeeShopRecord
@@ -148,12 +148,13 @@
                 Fill: =RGBA(0, 0, 0, 1)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(62, 74, 83, 1)
+                IsSearchable: =false
                 Items: =Choices([@'Coffee Shops_1'].ccd_Landlord)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(197, 203, 207, 1)
                 SearchFields: =["fullname"]
-                SearchItems: =Search(Choices([@'Coffee Shops_1'].ccd_Landlord),DataCardValue16.SearchText,"fullname")
+                SearchItems: =[]
                 SelectionFill: =RGBA(100, 118, 132, 1)
                 SelectMultiple: =false
                 Size: =13
