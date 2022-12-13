@@ -5,6 +5,7 @@
     "Gallery2 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(197, 203, 207, 1)
         Items: =Products
+        OnSelect: =Navigate('CCD Product Details')
         TemplatePadding: =0
         TemplateSize: =Min(440, Self.Height - 60)
         Width: =1192
