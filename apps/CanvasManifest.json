@@ -111,6 +111,7 @@
   "ScreenOrder": [
     "CCD Details Screen",
     "CCD Product Details",
-    "CCD Screen"
+    "CCD Screen",
+    "Product Screen"
   ]
 }
