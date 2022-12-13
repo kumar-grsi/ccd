@@ -11,9 +11,8 @@
             Navigate('CCD Product Details');
         TemplatePadding: =0
         TemplateSize: =Min(440, Self.Height - 60)
-        Width: =1192
-        X: =39
-        Y: =129
+        Width: =1350
+        Y: =177
         ZIndex: =1
 
         Image4 As image:
@@ -90,7 +89,12 @@
         Size: =25
         Text: ="PRODUCTS"
         Width: =210
-        X: =60
-        Y: =60
+        X: =56
+        Y: =133
         ZIndex: =2
+
+    cmp_ccd_top_nav_1 As cmp_ccd_top_nav:
+        Height: =129
+        Width: =1366
+        ZIndex: =3
 

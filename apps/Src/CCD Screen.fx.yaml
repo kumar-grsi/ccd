@@ -4,6 +4,7 @@
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(197, 203, 207, 1)
+        Height: =543
         Items: ='Coffee Shops_1'
         Layout: =Layout.Vertical
         OnSelect: |-
@@ -20,7 +21,7 @@
         TemplateSize: =Min(160, Self.Height - 60)
         Width: =1292
         X: =30
-        Y: =171
+        Y: =193
         ZIndex: =1
 
         lbl_street_address As image:
@@ -177,6 +178,10 @@
         Text: ="CAFE COFFEE DAY"
         Width: =334
         X: =30
-        Y: =104
+        Y: =134
         ZIndex: =2
+
+    cmp_ccd_top_nav_2 As cmp_ccd_top_nav:
+        Height: =132
+        ZIndex: =3
 

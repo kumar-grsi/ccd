@@ -289,3 +289,7 @@
         Y: =656
         ZIndex: =2
 
+    cmp_ccd_top_nav_3 As cmp_ccd_top_nav:
+        Height: =128
+        ZIndex: =3
+
