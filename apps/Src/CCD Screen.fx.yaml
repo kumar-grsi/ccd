@@ -1,0 +1,159 @@
+"'CCD Screen' As screen":
+    Fill: =RGBA(29, 29, 29, 1)
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Items: ='Coffee Shops_1'
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =1292
+        X: =30
+        Y: =171
+        ZIndex: =1
+
+        lbl_street_address As image:
+            BorderColor: =RGBA(197, 203, 207, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =128
+            Image: =ThisItem.'Coffee Shop Image'
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        lbl_name As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =Upper(ThisItem.Name)
+            VerticalAlign: =VerticalAlign.Top
+            Width: =390
+            X: =lbl_street_address.X + lbl_street_address.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.'Street Address'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =390
+            X: =lbl_name.X
+            Y: =lbl_name.Y + lbl_name.Height + 4
+            ZIndex: =3
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(197, 203, 207, 1)
+            Color: =RGBA(197, 203, 207, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator1 As rectangle:
+            BorderColor: =RGBA(197, 203, 207, 1)
+            Fill: =RGBA(197, 203, 207, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+        lbl_city_state As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =Concatenate(ThisItem.City, ", ", ThisItem.State)
+            VerticalAlign: =VerticalAlign.Top
+            Width: =390
+            X: =lbl_name.X
+            Y: =120
+            ZIndex: =6
+
+        lbl_seating_capacity As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =28
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: |-
+                =Concatenate("Capacity: ", ThisItem.'Seating Capacity')
+            VerticalAlign: =VerticalAlign.Top
+            Width: =188
+            X: =697
+            Y: =50
+            ZIndex: =7
+
+        lbl_outdoor_seating As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =35
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: |-
+                =Concatenate("Outdoor Seating: ", ThisItem.'Outdoor Seating')
+            VerticalAlign: =VerticalAlign.Top
+            Width: =308
+            X: =697
+            Y: =85
+            ZIndex: =8
+
+        lbl_pet_friendly As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =35
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: |-
+                =Concatenate("Pet-Friendly: ", ThisItem.'Allows Pets')
+            VerticalAlign: =VerticalAlign.Top
+            Width: =308
+            X: =697
+            Y: =120
+            ZIndex: =9
+
