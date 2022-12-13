@@ -108,8 +108,8 @@
         BorderColor: =RGBA(197, 203, 207, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        Size: =13
-        Text: ="Text"
+        Size: =15
+        Text: =CountRows(ShoppingCart)
         X: =1216
         Y: =30
         ZIndex: =4
