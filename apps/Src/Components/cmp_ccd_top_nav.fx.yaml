@@ -55,7 +55,7 @@ cmp_ccd_top_nav As CanvasComponent:
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =37
-        OnSelect: =
+        OnSelect: =Navigate('Landing')
         Size: =16
         Text: ="About"
         X: =502

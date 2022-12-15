@@ -5,3 +5,27 @@ Landing As screen:
     cmp_ccd_top_nav_5 As cmp_ccd_top_nav:
         Height: =138
 
+    Image5 As image:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =518
+        Image: =CCDlanding
+        Width: =722
+        X: =72
+        Y: =171
+        ZIndex: =2
+
+    Label5 As label:
+        BorderColor: =RGBA(197, 203, 207, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =116
+        Size: =20
+        Text: ="Welcome to Cafe Coffee Day ! ! !"
+        Width: =468
+        X: =840
+        Y: =345
+        ZIndex: =3
+

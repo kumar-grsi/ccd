@@ -75,7 +75,7 @@
         "Name": "Label3",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 92,
+        "PublishOrderIndex": 95,
         "Rules": [
           {
             "Category": "Data",
@@ -399,7 +399,7 @@
         "Name": "lbl_user",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 93,
+        "PublishOrderIndex": 96,
         "Rules": [
           {
             "Category": "Data",
@@ -706,7 +706,7 @@
         "Name": "Image3",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 94,
+        "PublishOrderIndex": 97,
         "Rules": [
           {
             "Category": "Data",
@@ -970,7 +970,7 @@
         "Name": "lbl_date",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 95,
+        "PublishOrderIndex": 98,
         "Rules": [
           {
             "Category": "Data",
@@ -1302,7 +1302,7 @@
         "Name": "Label4",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 96,
+        "PublishOrderIndex": 99,
         "Rules": [
           {
             "Category": "Data",
@@ -1640,7 +1640,7 @@
         "Name": "Label4_1",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 97,
+        "PublishOrderIndex": 100,
         "Rules": [
           {
             "Category": "Data",
@@ -1978,7 +1978,7 @@
         "Name": "Label4_2",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 98,
+        "PublishOrderIndex": 101,
         "Rules": [
           {
             "Category": "Data",
@@ -2216,7 +2216,7 @@
           },
           {
             "Category": "Behavior",
-            "InvariantScript": "",
+            "InvariantScript": "Navigate('Landing')",
             "Property": "OnSelect",
             "RuleProviderType": "Unknown"
           }
@@ -2316,7 +2316,7 @@
         "Name": "Label4_3",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 99,
+        "PublishOrderIndex": 102,
         "Rules": [
           {
             "Category": "Data",
@@ -2623,7 +2623,7 @@
         "Name": "Icon1",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 100,
+        "PublishOrderIndex": 103,
         "Rules": [
           {
             "Category": "Design",
@@ -2851,7 +2851,7 @@
         "Name": "lbl_cart_count",
         "Parent": "cmp_ccd_top_nav",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 101,
+        "PublishOrderIndex": 104,
         "Rules": [
           {
             "Category": "Data",
@@ -3120,7 +3120,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638067409531923196",
+    "LastModifiedTimestamp": "638067411583195361",
     "Name": "cmp_ccd_top_nav",
     "Rules": [
       {
@@ -3179,7 +3179,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638067409531923196",
+  "LastModifiedTimestamp": "638067411583195361",
   "Name": "992b6cbbbecb4bf58dcfc63756580d64",
   "OverridableProperties": {},
   "Version": "638065529959998855"
