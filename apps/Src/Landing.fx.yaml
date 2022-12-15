@@ -1,0 +1,7 @@
+Landing As screen:
+    Fill: =RGBA(29, 29, 29, 1)
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    cmp_ccd_top_nav_5 As cmp_ccd_top_nav:
+        Height: =138
+

@@ -94,11 +94,11 @@
     "FileID": "1be7f3b3-f060-4218-8279-de2a76c65896",
     "Id": "1be7f3b3-f060-4218-8279-de2a76c65896",
     "InstrumentationKey": "",
-    "Name": "ccd",
+    "Name": "ccd-chatbot",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
-    "AppName": "ccd",
+    "AppName": "ccd-chatbot",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -109,6 +109,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Landing",
     "CCD Details Screen",
     "CCD Product Details",
     "CCD Screen",
