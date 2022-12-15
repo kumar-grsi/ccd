@@ -124,7 +124,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/15/2022 22:46:12",
+  "HeaderLastSavedDateTimeUTC": "12/15/2022 23:00:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "14fa8656-a78e-485c-b5ad-232c67de29e2": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/8a73c173fab94acd8faed02ec2bf875b\"",
@@ -153,6 +153,7 @@
     "Coffee Shops\\ccd_coffeeshop_statecode": 46,
     "Coffee Shops\\ccd_coffeeshop_statuscode": 47,
     "Coffee Shops\\default.cds_ccd_coffeeshop_views": 50,
+    "ColumnChartSample": 58,
     "ComboBoxSample": 53,
     "Contacts": 52,
     "Contacts\\contact_accountrolecode": 33,
@@ -197,14 +198,16 @@
     "Contacts\\contact_territorycode": 41,
     "Contacts\\default.cds_contact_views": 49,
     "CustomGallerySample": 54,
-    "NewCoffeeShop": 57,
+    "LegendSample": 57,
+    "NewCoffeeShop": 60,
     "Office365Outlook": 0,
+    "PieChartSample": 56,
     "PowerApp->Sendanemail(V2)": 1,
     "Products": 51,
     "Products\\ccd_product_statecode": 2,
     "Products\\ccd_product_statuscode": 3,
     "Products\\default.cds_ccd_product_views": 48,
-    "ShoppingCart": 56
+    "ShoppingCart": 59
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -338,7 +341,8 @@
   "ResourcesJsonIndices": {
     "Image-CCDlanding": 2,
     "Image-download": 1,
-    "Image-SampleImage": 0
+    "Image-SampleImage": 0,
+    "Pdf-SamplePdf": 3
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
